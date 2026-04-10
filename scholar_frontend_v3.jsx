@@ -13,7 +13,7 @@ import { useState, useEffect, useRef, useMemo, useCallback } from "react";
   In local dev: http://localhost:8000
 */
 
-const BACKEND_URL = "https://YOUR-SCHOLAR-BACKEND.onrender.com"; // ← change this
+const BACKEND_URL = "https://scholar-self-learning-ai.onrender.com/"; // ← change this
 const WS_URL      = BACKEND_URL.replace("https","wss").replace("http","ws") + "/ws";
 
 /* ─── Seeded RNG (deterministic micro-node layout) ───────────────────────── */
